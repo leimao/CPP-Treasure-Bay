@@ -1,5 +1,10 @@
 #include <iostream> 
 
+/*
+ * Modified from
+ * https://www.geeksforgeeks.org/template-specialization-c/
+ */
+
 // Template specialization functions
 template <typename T>
 void func(T a)

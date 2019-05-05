@@ -1,6 +1,9 @@
 #include <iostream>
 
-// https://stackoverflow.com/questions/860339/difference-between-private-public-and-protected-inheritance
+/*
+ * Modified from
+ * https://stackoverflow.com/questions/860339/difference-between-private-public-and-protected-inheritance
+ */
 
 class A
 {

@@ -1,13 +1,12 @@
 #include <iostream>
 
-// more complicated typedef
+// More complicated typedef
 typedef int int_t, *intp_t, (&fp)(int, float), arr_t[10];
 
 int my_int_func(int x, float y)
 {
     return x;
 }
-
 
 int main()
 {
