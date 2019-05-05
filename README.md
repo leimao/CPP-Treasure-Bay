@@ -1,4 +1,4 @@
-# CPP Treasure Bay
+# C++ Treasure Bay
 
 Lei Mao
 
