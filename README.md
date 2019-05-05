@@ -18,7 +18,7 @@ Comprehensive use cases of public, protected and private class inheritance.
 
 ### Typedef
 
-Some hard typedef usages.
+Some confusing typedef usages.
 
 ### Template Specialization
 
