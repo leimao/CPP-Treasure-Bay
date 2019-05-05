@@ -4,7 +4,9 @@ Lei Mao
 
 ## Introduction
 
-C++ is one of the most important low level programming languages. Its usages have expanded tremendously these years, but it is becoming harder for users, especially new users, to take the advantage of them. The purpose of this repository is to help the users to understand some of the basic and advanced usages of C++ by looking at the compact code and the program outputs without talking too much about the lengthy concepts like other tutorial websites do. 
+C++ is one of the most important low level programming languages. Its usages have expanded tremendously these years, but it is becoming harder for users, especially new users, to take the advantage of them. The purpose of this repository is to help the users to understand some of the basic and advanced usages of C++ by looking at the compact code and the program outputs without talking too much about the lengthy concepts like other tutorial websites do.
+
+No bullshit. Show me the code.
 
 ## Collections
 
