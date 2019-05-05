@@ -2,8 +2,8 @@
 
 /*
  * reinterpret_cast
- * Does not do type check for pointer type conversions.
- * It could be dangerous.
+ * Does not do type check for pointer type conversion compatibilities.
+ * It is the most dangerous cast.
  * Know what you are doing before using it.
  */
 
