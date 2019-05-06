@@ -26,6 +26,10 @@ Some confusing typedef usages.
 
 Flexible implementation of different function and class for some particular template types.
 
+### Operator Overloading
+
+Operator overloading use case of unary, binary, and conversion operators.
+
 ### Casts
 
 #### Dynamic Cast
@@ -40,14 +44,14 @@ Flexible implementation of different function and class for some particular temp
 * It is safe to cast basic class on derived class
 * Be careful when you cast derived class on basic class since there is no runtime check
 
-#### Const Cast
-
-* Remove variable const restrictions on pointers temporally
-* Do not use it to modify the content of const variables
-
 #### Reinterpret Cast
 
 * Used for pointer cast
 * Ask compiler to treat the expression as if it has the new type
 * Most dangerous cast
 * Know what you are doing before doing so
+
+#### Const Cast
+
+* Remove variable const restrictions on pointers temporally
+* Do not use it to modify the content of const variables
