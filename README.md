@@ -28,7 +28,7 @@ Flexible implementation of different function and class for some particular temp
 
 ### Operator Overloading
 
-Operator overloading use case of unary, binary, and conversion operators.
+Operator overloading use cases of unary, binary, and conversion operators.
 
 ### Casts
 
