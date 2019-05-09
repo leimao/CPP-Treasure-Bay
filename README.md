@@ -55,3 +55,13 @@ Operator overloading use cases of unary, binary, and conversion operators.
 
 * Remove variable const restrictions on pointers temporally
 * Do not use it to modify the content of const variables
+
+### Smart Pointers
+
+#### Shared Pointer
+
+* Shared pointer is a smart pointer object that retains shared ownership of an object through a pointer. 
+* Several shared pointer objects may own the same object. 
+* Object owned would be destroyed once the last smart pointer owning the object loses ownership.
+
+### Singleton
