@@ -76,9 +76,13 @@ Operator overloading use cases of unary, binary, and conversion operators.
 
 #### Virtual Destructor
 
+If the derived class have different destructor compared to the base class, it is recommended to make the destructor in the base class virtual. In this way, the base class destructor will always be called when you try to delete a derived class. It is best practice to make the base class destructor virtual when the base class is meant to be inherited polymorphically.
 
 ### Default
 
 #### Constructor
 
 #### Destructor
+
+
+### Lambda Expression
