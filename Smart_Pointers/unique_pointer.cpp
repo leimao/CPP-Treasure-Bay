@@ -82,4 +82,10 @@ int main()
     std::cout << "=====================" << std::endl;
     std::unique_ptr<D[]> ap{new D[3]};
     std::cout << "=====================" << std::endl;
+
+    D * m = new D(8);
+    std::unique_ptr<D> t(m);
+    // This will cause problem
+    // std::unique_ptr<D> w(m);
+    std::cout << "=====================" << std::endl;
 }

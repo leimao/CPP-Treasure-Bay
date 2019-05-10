@@ -66,6 +66,9 @@ Operator overloading use cases of unary, binary, and conversion operators.
 
 #### Unique Pointer
 
+* Unique pointer is a smart pointer object that uniquely owns an object through a pointer.
+* Could only transfer the ownership but not copy.
+* It assumes only one unique pointer pointing to the object. Another unique pointer pointing to the same object will cause problems.
 
 ### Singleton
 
