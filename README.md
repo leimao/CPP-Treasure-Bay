@@ -64,4 +64,21 @@ Operator overloading use cases of unary, binary, and conversion operators.
 * Several shared pointer objects may own the same object. 
 * Object owned would be destroyed once the last smart pointer owning the object loses ownership.
 
+#### Unique Pointer
+
+
 ### Singleton
+
+
+### Virtual Functions
+
+#### Override
+
+#### Virtual Destructor
+
+
+### Default
+
+#### Constructor
+
+#### Destructor
