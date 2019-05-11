@@ -77,6 +77,8 @@ Operator overloading use cases of unary, binary, and conversion operators.
 
 #### Override
 
+Actually we are overriding virtual functions routinely without even using `override` specifier. However, using `override` could help you prevent some weird bug in your code. So it is always best practice to use `override` when you really want to `override` a virtual function. In addition, it also makes understanding the code much easier.
+
 #### Virtual Destructor
 
 If the derived class have different destructor compared to the base class, it is recommended to make the destructor in the base class virtual. In this way, the base class destructor will always be called when you try to delete a derived class. It is best practice to make the base class destructor virtual when the base class is meant to be inherited polymorphically.
