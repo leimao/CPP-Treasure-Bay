@@ -17,6 +17,12 @@ public:
     {
         std::cout << "Base ID: " << id << " from printId3." << std::endl;
     }
+
+    virtual void foo ()
+    {
+        std::cout << "Base foo()." << std::endl;
+    }
+
 private:
     int id;
 };
@@ -47,6 +53,21 @@ public:
         std::cout << "Derived ID: " << id << "from printId3." << std::endl;
     }
     */
+    // It cannot override a base function that does not exist
+    // void foo() const override;
+    // This creates a new function
+    void foo() const
+    {
+        std::cout << "Derived foo() const." << std::endl;
+    }
+
+    /*
+    // This is what we really wanted to do.
+    void foo() override
+    {
+        std::cout << "Derived foo()." << std::endl;
+    }
+    */
     
 private:
     int id;
@@ -65,4 +86,13 @@ int main()
 
     b.printId3();
     d.printId4();
+
+    Derived * p1 = new Derived(3);
+    Base * p2 = p1;
+    // This prints Derived foo() const.
+    p1->foo();
+    // This prints Base foo().
+    // But what we want is actually print Derived foo().
+    // Incorrect override without specifier did not link to the vtable correctly.
+    p2->foo();
 }
